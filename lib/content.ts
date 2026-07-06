@@ -30,6 +30,7 @@ export type CaseStudy = {
   work?: LabeledBlock;
   shipped?: string;
   metrics: string;
+  caseStudyUrl?: string;
   preview?: Preview;
 };
 
@@ -72,6 +73,8 @@ export const caseStudies: CaseStudy[] = [
     },
     shipped: "Interactive prototype demonstrating the redesigned consent flows end-to-end.",
     metrics: "CONSENT COMPLETION · NOTICE DROP-OFF · GRIEVANCE TAT",
+    caseStudyUrl:
+      "https://legendary-fairy-ad9.notion.site/Project-Compliant-Zomato-Case-Study-395be2aed0ff80d299cbe2d381ea11e3?pvs=73",
     preview: {
       displayUrl: "zomatodemo.garvitoberoi.com",
       liveUrl: "https://zomatodemo.garvitoberoi.com/",
@@ -156,6 +159,8 @@ export const contact = {
   label: "Contact",
   headline: "Open to Product Management internships.",
   email: "obgarvit01@gmail.com",
+  phone: "+91 7017304973",
+  phoneHref: "tel:+917017304973",
   links: [
     { label: "LinkedIn ↗", href: "https://www.linkedin.com/in/garvit-oberoi" },
     { label: "Resume ↗", href: "/resume.pdf" },

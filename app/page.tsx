@@ -45,6 +45,13 @@ export default function Home() {
             {contact.email}
           </a>
 
+          <a
+            href={contact.phoneHref}
+            className="mt-2 block text-base text-ink-soft underline decoration-ink/20 underline-offset-4 transition-colors hover:text-accent hover:decoration-accent sm:text-lg"
+          >
+            {contact.phone}
+          </a>
+
           <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3 font-mono text-xs uppercase tracking-[0.15em] text-ink-soft">
             {contact.links.map((link) => (
               <a

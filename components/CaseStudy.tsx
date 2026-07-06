@@ -33,6 +33,16 @@ export default function CaseStudy({ study }: { study: CaseStudyType }) {
       </div>
       <h3 className="mt-5 text-[1.75rem] font-medium leading-[1.1] tracking-tight text-ink">{study.title}</h3>
       <p className="mt-3 font-serif text-lg italic text-ink-soft">{study.oneLiner}</p>
+      {study.caseStudyUrl ? (
+        <a
+          href={study.caseStudyUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-flex items-center gap-1.5 font-mono text-[11px] uppercase tracking-[0.15em] text-ink transition-colors hover:text-accent"
+        >
+          Read the full case study <span aria-hidden="true">↗</span>
+        </a>
+      ) : null}
     </div>
   );
 
