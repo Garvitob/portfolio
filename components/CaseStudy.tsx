@@ -83,7 +83,7 @@ export default function CaseStudy({ study }: { study: CaseStudyType }) {
 
   if (!study.preview) {
     return (
-      <article className="border-t border-hairline pt-12 lg:pt-16">
+      <article className="border-t border-hairline pt-10 lg:pt-14">
         {header}
         <div className="max-w-[70ch]">
           {problem}
@@ -94,7 +94,7 @@ export default function CaseStudy({ study }: { study: CaseStudyType }) {
   }
 
   return (
-    <article className="grid grid-cols-1 gap-x-12 border-t border-hairline pt-12 lg:grid-cols-[1.55fr_1fr] lg:pt-16">
+    <article className="grid grid-cols-1 gap-x-12 border-t border-hairline pt-12 lg:grid-cols-[1.35fr_1fr] lg:pt-16">
       {header}
       {problem}
       <div className="mt-7 lg:col-start-2 lg:row-span-3 lg:row-start-1 lg:mt-0 lg:self-start">

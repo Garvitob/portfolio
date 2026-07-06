@@ -13,12 +13,12 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
 
-        <section id="work" className="mx-auto w-full max-w-[1080px] px-6 py-24 lg:px-16 lg:py-32">
+        <section id="work" className="mx-auto w-full max-w-[1080px] px-6 py-12 lg:px-16 lg:py-16">
           <div className="mb-12 flex items-center gap-4">
             <h2 className="font-mono text-[11px] uppercase tracking-[0.2em] text-ink-soft">Selected Work</h2>
             <span className="h-px flex-1 bg-hairline" aria-hidden="true" />
           </div>
-          <div className="space-y-16 lg:space-y-24">
+          <div className="space-y-12 lg:space-y-16">
             {caseStudies.map((study) => (
               <CaseStudy key={study.number} study={study} />
             ))}
@@ -28,7 +28,7 @@ export default function Home() {
         <HowIWork />
         <About />
 
-        <section id="contact" className="mx-auto w-full max-w-[1080px] px-6 py-24 lg:px-16 lg:py-32">
+        <section id="contact" className="mx-auto w-full max-w-[1080px] px-6 py-12 lg:px-16 lg:py-16">
           <div className="mb-10 flex items-center gap-4">
             <h2 className="font-mono text-[11px] uppercase tracking-[0.2em] text-ink-soft">{contact.label}</h2>
             <span className="h-px flex-1 bg-hairline" aria-hidden="true" />

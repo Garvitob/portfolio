@@ -2,7 +2,7 @@ import { hero } from "@/lib/content";
 
 export default function Hero() {
   return (
-    <section id="top" className="mx-auto w-full max-w-[1080px] px-6 pb-24 pt-20 lg:px-16 lg:pb-32 lg:pt-28">
+    <section id="top" className="mx-auto w-full max-w-[1080px] px-6 pb-12 pt-16 lg:px-16 lg:pb-16 lg:pt-24">
       <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-ink-soft sm:text-xs">{hero.eyebrow}</p>
 
       <h1 className="mt-6 max-w-[20ch] text-[clamp(2.4rem,5vw,3.75rem)] font-medium leading-[1.05] tracking-[-0.02em] text-ink">
