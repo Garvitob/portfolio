@@ -1,0 +1,11 @@
+{
+  // node_modules is dependency code. Hiding it from the Explorer stops stray
+  // clicks from opening a package's internal config files (e.g.
+  // @humanfs/types/tsconfig.json) — which is the only thing the TS language
+  // server was flagging in the PROBLEMS panel. Your build, lint, and all
+  // tooling still use node_modules normally; this only affects the sidebar.
+  // Delete this "files.exclude" block if you ever want to browse it again.
+  "files.exclude": {
+    "**/node_modules": true
+  }
+}
