@@ -149,7 +149,7 @@ export const howIWork = {
 
 export const about = {
   label: "About",
-  body: "I’m a BTech IT student at JSS Noida (’27) and a former product management intern at Orderly, a US voice-AI ordering startup. I ship my own products end-to-end — everything on this page is live on this domain. Based in Noida.",
+  body: "I’m a BTech IT student at JSS Noida (’27) focused on product. I analyze user journeys, improve product experiences, and ship AI products end-to-end — working across market research, go-to-market strategy, AI integrations, feature prioritization, and regulatory compliance (DPDP). I care about building user-centric solutions that scale. Based in Noida.",
 };
 
 export const contact = {
