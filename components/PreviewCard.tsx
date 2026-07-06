@@ -17,7 +17,7 @@ export default function PreviewCard({ preview }: { preview: Preview }) {
           <span className="hidden text-[10px] text-ink group-hover:inline">OPEN ↗</span>
         </span>
       </div>
-      <div className="aspect-[16/10] overflow-hidden bg-paper">
+      <div className={`overflow-hidden bg-paper ${preview.tall ? "aspect-[3/4]" : "aspect-[16/10]"}`}>
         <img src={preview.image} alt={preview.alt} className="h-full w-full object-cover object-top" />
       </div>
     </a>

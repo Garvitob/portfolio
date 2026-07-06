@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://garvitoberoi.com"),
   title: "Garvit Oberoi — Product",
   description:
-    "Product-focused builder. I analyze products, make trade-off decisions, and ship the result end-to-end. 3 live products, PM internship, DPDP case study.",
+    "Product-focused builder. I analyze products, make trade-off decisions, and ship the result end-to-end. 3 live products, Product Management internship, DPDP case study.",
   openGraph: {
     title: "Garvit Oberoi — Product",
     description: "Case studies: Project Adhikar, ShipFlow AI, NEXUS, Orderly.",

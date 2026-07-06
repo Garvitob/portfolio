@@ -11,6 +11,7 @@ export type Preview = {
   liveUrl: string;
   image: string;
   alt: string;
+  tall?: boolean; // portrait card for mobile-app demos
 };
 
 export type LabeledBlock = {
@@ -44,11 +45,11 @@ export const nav = {
 
 // H1 is split so the single word "ship" can be set in serif italic + accent.
 export const hero = {
-  eyebrow: "PRODUCT — ASPIRING PM",
+  eyebrow: "ASPIRING PRODUCT MANAGER",
   h1Lead: "I analyze products, make trade-off decisions, and ",
   h1Accent: "ship",
   h1Tail: " the result end-to-end.",
-  sub: "BTech IT ’27 · Former PM Intern @ Orderly · 3 live products on this domain",
+  sub: "BTech IT ’27 · Former Product Management Intern @ Orderly · 3 live products on this domain",
   proof: "3 SHIPPED PRODUCTS · RESEARCH & GTM STRATEGY · AI INTEGRATIONS",
 };
 
@@ -76,6 +77,7 @@ export const caseStudies: CaseStudy[] = [
       liveUrl: "https://zomatodemo.garvitoberoi.com/",
       image: "/images/adhikar.jpg",
       alt: "Project Adhikar — redesigned Zomato consent flow, live demo landing page",
+      tall: true,
     },
   },
   {
@@ -91,7 +93,7 @@ export const caseStudies: CaseStudy[] = [
       "Chose real GitHub PR diffs over simulated demo data — credibility of findings beats ease of demoing.",
     ],
     shipped:
-      "PM planning portal, developer Kanban, and automated AI review running on real pull requests — live in production.",
+      "Product Management planning portal, developer Kanban, and automated AI review running on real pull requests — live in production.",
     metrics: "REVIEW TURNAROUND · FINDINGS PER PR · FALSE-POSITIVE RATE",
     preview: {
       displayUrl: "shipflow.garvitoberoi.com",
@@ -122,7 +124,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     number: "04",
-    tag: "PM INTERNSHIP",
+    tag: "PRODUCT MANAGEMENT INTERNSHIP",
     title: "Orderly — the 7 → 4 redesign",
     oneLiner: "Reducing order-completion friction on an AI voice-ordering product.",
     problem:
@@ -147,12 +149,12 @@ export const howIWork = {
 
 export const about = {
   label: "About",
-  body: "I’m a BTech IT student at JSS Noida (’27) and a former product management intern at Orderly, a US voice-AI ordering startup. I ship my own products end-to-end — everything on this page is live on this domain. Based in Delhi NCR.",
+  body: "I’m a BTech IT student at JSS Noida (’27) and a former product management intern at Orderly, a US voice-AI ordering startup. I ship my own products end-to-end — everything on this page is live on this domain. Based in Noida.",
 };
 
 export const contact = {
   label: "Contact",
-  headline: "Open to PM internships.",
+  headline: "Open to Product Management internships.",
   email: "obgarvit01@gmail.com",
   links: [
     { label: "LinkedIn ↗", href: "https://www.linkedin.com/in/garvit-oberoi" },
